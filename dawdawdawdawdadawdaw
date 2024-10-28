@@ -3,7 +3,7 @@ run(function()
 	local Enabled = false
 	local Connection = nil
 	SmallWeapons = GuiLibrary["ObjectsThatCanBeSaved"]["RenderWindow"]["Api"].CreateOptionsButton({
-		["Name"] = "SmallToolsv2",
+		["Name"] = "SmallTools",
 		["HoverText"] = "Changes the size of tools in your hotbar",
         ["Function"] = function(Callback)
             Enabled = Callback
